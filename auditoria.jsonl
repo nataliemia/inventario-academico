@@ -1,0 +1,32 @@
+{"timestamp": "2026-11-11T18:01:31.440167", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"timestamp": "2026-11-11T18:02:11.330292", "usuario": "usuario_falso", "accion": "login", "resultado": "fallido"}
+{"timestamp": "2026-11-11T18:02:44.360336", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"timestamp": "2026-11-11T18:05:16.317660", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"timestamp": "2026-11-11T18:14:57.530058", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"timestamp": "2026-11-11T18:15:24.903847", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"timestamp": "2026-11-11T18:17:00.258455", "usuario": "admin", "accion": "login", "resultado": "fallido"}
+{"timestamp": "2026-11-11T18:19:04.400427", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T18:25:08.324835", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T18:25:40.895254", "usuario": "user", "accion": "modificar", "resultado": "rechazado_por_permisos", "producto": "1"}
+{"timestamp": "2026-11-11T18:39:56.564891", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T18:40:40.709874", "usuario": "admin", "accion": "modificar", "resultado": "rechazado_fuera_de_rango", "producto": "P001", "cantidad_intentada": -1}
+{"timestamp": "2026-11-11T18:41:31.309329", "usuario": "admin", "accion": "modificar", "resultado": "rechazado_fuera_de_rango", "producto": "P001", "cantidad_intentada": 1001}
+{"timestamp": "2026-11-11T18:41:58.357827", "usuario": "admin", "accion": "modificar", "resultado": "rechazado_entrada_invalida", "producto": "P001", "entrada_recibida": "abc"}
+{"timestamp": "2026-11-11T18:42:22.729162", "usuario": "admin", "accion": "modificar", "resultado": "rechazado_entrada_invalida", "producto": "P001", "entrada_recibida": "2.5"}
+{"timestamp": "2026-11-11T18:42:54.672295", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 10, "nueva": 0}
+{"timestamp": "2026-11-11T18:43:31.484004", "usuario": "admin", "accion": "modificar", "resultado": "rechazado_producto_no_encontrado", "producto": "p001"}
+{"timestamp": "2026-11-11T18:43:44.137429", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 0, "nueva": 1000}
+{"timestamp": "2026-11-11T18:44:03.801457", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 1000, "nueva": 10}
+{"timestamp": "2026-11-11T18:50:29.384479", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T18:50:31.501345", "usuario": "user", "accion": "consultar", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T18:51:50.752370", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T18:52:00.590353", "usuario": "admin", "accion": "consultar", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T18:52:55.755520", "usuario": "admin", "accion": "modificar", "resultado": "exitoso", "producto": "P001", "anterior": 10, "nueva": 20}
+{"timestamp": "2026-11-11T18:53:30.812818", "usuario": "admin", "accion": "modificar", "resultado": "rechazado_producto_no_encontrado", "producto": "P999"}
+{"timestamp": "2026-11-11T18:53:56.991183", "usuario": "admin", "accion": "consultar", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T19:02:17.676002", "usuario": "admin", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T19:02:37.497286", "usuario": "admin", "accion": "consultar", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T19:13:56.653965", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T19:16:14.757461", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T19:18:36.321316", "usuario": "user", "accion": "login", "resultado": "exitoso"}
+{"timestamp": "2026-11-11T19:18:37.787954", "usuario": "user", "accion": "consultar", "resultado": "exitoso"}
